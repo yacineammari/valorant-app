@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: "ValorantFont";
+    font-style: normal;
+    font-weight: normal; 
+    src:  local("ValorantFont"), format("truetype");
+    src:  url(../../assets/Fonts/ValorantFont.ttf) format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #0E1923; 
+    color: #FF4655;
+    font-family: ValorantFont;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}

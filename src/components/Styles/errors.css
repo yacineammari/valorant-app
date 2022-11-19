@@ -1,0 +1,32 @@
+
+
+.error {
+    width: 50%;
+    height: 50%;
+    background-color: #070b10;
+    color: #F3F9FE;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 16px auto;
+    text-align: center;
+}
+
+.error h1 {
+    color: #FF4655;
+}
+
+.error button {
+    background-color: #FF4655;
+    padding: 16px;
+    color: #F3F9FE;
+    border-radius: 2px;
+    transition: all .2s ease;
+
+}
+
+.error button:hover {
+    background-color: #d93d4a;
+    text-decoration: underline;
+}
+
